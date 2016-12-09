@@ -3,11 +3,7 @@ $(document).ready(function () {
         var hidden = $(".hidden");
 
         button.on("click", function(){
-			if(hidden.is(":hidden")){
-				hidden.slideDown(500);
-			} else {
-				hidden.slideUp(500);
-			}
+			hidden.slideToggle();
         });
 
 });
