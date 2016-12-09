@@ -55,6 +55,10 @@ nav > ul > li:hover > a > .caret {
     border-top-color: rgb( 255, 255, 255 );
 }
 
+.hidden {
+  display: none;
+}
+
 button{
     margin-top: 20px;
     border: none;
